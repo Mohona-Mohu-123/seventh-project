@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    overflow: hidden;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.topbar{
+    background-color: palevioletred;
+}
+.contact-info{
+    float: left;
+    width: 70%;
+}
+.contact-info a{
+    color: white;
+    
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.contact-info i{
+    padding: 8px;
+
+}
+.social-info{
+    float: right;
+    width: 20%;
+}
+.social-info a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.social-info i{
+    padding: 8px;
+
+}
+.header{}
+.logo{
+    width: 20%;
+    float: left;
+   
+}
+.logo img{
+    height: 150px;
+    width: 250px;
+    padding: 0;
+}
+.navbar{
+    float :right;
+    width: 75%;
+   
+}
+.navbar a{
+    color: palevioletred;
+    padding: 60px 30px;
+    font-size: 24px;
+    text-decoration: none;
+    float: left;
+
+   
+
+}
+.dropdown{
+    float: left;
+
+}
+.btn-drop{
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-size: 24px;
+    color:palevioletred;
+    padding: 60px 30px;
+    font-family: inherit;
+}
+.drop-content{
+    text-decoration: none;
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+}
+.drop-content a{
+    color: palevioletred;
+    text-align: left;
+    font-size: 24px;
+    display: block;
+    padding: 8px 16px;
+}
+.dropdown:hover .drop-content{
+    display: block;
+}
+.drop-content a:hover{
+    background-color:darkgray;
+}
+.slider img{
+    height: 500px;
+    width: 100%;
+}
+.heading h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: palevioletred;
+    letter-spacing: 8px;
+}
+.about-text{
+    width: 45%;
+    float: left;
+}
+.about-text p{
+    line-height: 24px;
+    font-size: 18px;
+    
+}
+.btn-about{
+     text-decoration: none;
+     background-color: palevioletred;
+     color: white;
+     border-radius: 8px;
+     padding: 10px;
+     font-size: 18px;
+}
+.about-image{
+    width: 45%;
+    float: right;
+}
+.service{
+    border: 1px solid palevioletred;
+    float: left;
+    width: 240px;
+    background-color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    margin: 14px;
+    padding: 14px;
+}
+.service i{
+    color: palevioletred;
+    font-size: 60px;
+}
+.btn-service{
+    background-color: palevioletred;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+}
+.service:hover{
+    border-radius: 50px 20px;
+    background-color: palevioletred;
+    transition: .8s;
+    color: white;
+}
+.service:hover i{
+    color: white;
+}
+
+
+
+.table-row-col{
+    border-collapse: collapse;
+    
+   
+}
+.table th,td{
+    font-size: 18px;
+    border: 2px solid palevioletred;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+   
+}
+.table th,td a{
+    text-decoration: none;
+    color: inherit;
+}
+.marqu{
+    color: palevioletred;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+   
+}
+.massege-area{
+    text-align: justify;
+    background-color: bisque;
+    margin-top: -25px;
+}
+.massege h1{
+    color: brown;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.massege p{
+    color: brown;
+    font-size: 18px;
+   
+}
+.profile h1{
+    color: brown;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.profile p{
+    color: brown;
+    font-size: 18px;
+}
+.profile-area{
+    text-align: justify;
+    background-color:bisque;
+    margin-top: -2px;
+}
+.image{
+    position: relative;
+    width: 100%;
+}
+.image img{
+    width: 100%;
+    height: 450px;
+}
+.service-overly{
+    position: absolute;
+    height: 200px;
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(105, 10, 41);
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+
+}
+.image:hover .service-overly{
+    opacity: 1;
+}
+.content-area{
+    padding: 8px;
+}
+.content-area h1{
+    color: firebrick;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content-area p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.team-section{
+    background-color:aliceblue;
+}
+.our-team{
+    width: 240px;
+    float: left;
+    margin: 30px;
+    position: relative;
+}
+.our-team img{
+    width: 100%;
+    height: 220px;
+}
+.team-overly{
+    position: absolute;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    font-size: 18px;
+}
+.our-team:hover .team-overly{
+    opacity: 1;
+}
+.contacts{
+    position: relative;
+    width: 100%;
+}
+.contacts img{
+    width: 100%;
+    height: 450px;
+}
+.contact-overly{
+    position: absolute;
+    height: 200px;
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(105, 10, 41);
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+
+}
+.contacts:hover .contact-overly{
+    opacity: 1;
+}
+.map{
+    float: left;
+    width: 48%;
+}
+.masseges{
+    float: right;
+    width: 48%;
+}
+input[type=text]{
+    width: 100%;
+    margin: 15px 0;
+    padding: 5px 0;
+   
+}
+input[type=email]{
+    width: 100%;
+    margin: 15px 0;
+    padding: 5px 0;
+  
+}
+input[type=number]{
+    width: 100%;
+    margin: 15px 0;
+    padding: 5px 0;
+ 
+}
+textarea{
+    width: 100%;
+    margin: 15px 0;
+   
+}
+.masseges h1{
+    text-align: center;
+    color:indianred ;
+    font-family: 'Courier New', Courier, monospace;
+}
+.gallery-item{
+    width: 800px;
+    margin: auto;
+  
+}
+.heading .head{
+    color:rgb(105, 10, 41);
+    font-family: 'Courier New', Courier, monospace;
+   
+}
